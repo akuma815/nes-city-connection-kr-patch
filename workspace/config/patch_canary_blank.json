@@ -1,0 +1,21 @@
+{
+  "name": "canary_blank",
+  "description": "1차 카나리아에서 0x3F가 하늘 타일로 판명돼, 0x3F를 빼고 회수 후보 11슬롯 전부를 검사한다.",
+  "_targets": "analyze_tile_usage.py가 '미관측'으로 분류한 11슬롯 전부",
+  "_how_to_read": "6개 도시 전 화면에 체커보드가 없으면 그 타일들은 배경이 참조하지 않는다는 뜻이다.",
+  "_how_to_run": "python workspace/scripts/run_qa.py build/canary_blank.nes --out work/qa/canary_s<N> --poke A0=<N>  (N=0..5)",
+  "glyphs": [
+    { "tile": "0x28", "pattern": "canary" },
+    { "tile": "0x29", "pattern": "canary" },
+    { "tile": "0x2A", "pattern": "canary" },
+    { "tile": "0x2B", "pattern": "canary" },
+    { "tile": "0x2C", "pattern": "canary" },
+    { "tile": "0x46", "pattern": "canary" },
+    { "tile": "0x51", "pattern": "canary" },
+    { "tile": "0x58", "pattern": "canary" },
+    { "tile": "0x5A", "pattern": "canary" },
+    { "tile": "0x5B", "pattern": "canary" },
+    { "tile": "0x5E", "pattern": "canary" }
+  ],
+  "strings": []
+}

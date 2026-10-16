@@ -1,0 +1,66 @@
+슬롯 회계 (PT1 본문 폰트)
+  회수 가능 슬롯        38
+  원문 유지로 예약      15  2E 41 43 45 4A 4B 4C 4D 4F 50 52 54 55 59 5F
+      0x2E '?' <- bonus:$2E, ending:$2E
+      0x41 'A' <- player_label:A, title_menu:A
+      0x43 'C' <- title_menu:C
+      0x45 'E' <- player_label:E, title_menu:E
+      0x4A 'J' <- title_menu:J
+      0x4B 'K' <- hud:K
+      0x4C 'L' <- player_label:L, title_menu:L
+      0x4D 'M' <- hud:M
+      0x4F 'O' <- title_menu:O
+      0x50 'P' <- hud:P, player_label:P, title_menu:P
+      0x52 'R' <- player_label:R
+      0x54 'T' <- title_menu:T
+      0x55 'U' <- hud:U
+      0x59 'Y' <- player_label:Y
+      0x5F '?' <- hud:$5F
+  한글에 쓸 수 있는 슬롯 23
+
+필요한 음절 23자
+  게 임 오 버 준 비 워 프 보 너 스 기 름 점 인 용 이 제 모 두 달 렸 다
+
+글리프 슬롯 배정
+  게 -> 0x28
+  임 -> 0x29
+  오 -> 0x2A
+  버 -> 0x2B
+  준 -> 0x2C
+  비 -> 0x2D
+  워 -> 0x2F
+  프 -> 0x42
+  보 -> 0x44
+  너 -> 0x46
+  스 -> 0x47
+  기 -> 0x48
+  름 -> 0x49
+  점 -> 0x4E
+  인 -> 0x51
+  용 -> 0x53
+  이 -> 0x56
+  제 -> 0x57
+  모 -> 0x58
+  두 -> 0x5A
+  달 -> 0x5B
+  렸 -> 0x5D
+  다 -> 0x5E
+
+스프라이트 텍스트 pause: PAUSE -> 일시정지
+  0xB7 <- 일
+  0xB8 <- 시
+  0xB9 <- 정
+  0xBA <- 지
+  0xBB <- _
+
+문자열
+  game_over      $81FB [ 9]  GAME OVER -> 게임 오버
+  ready          $82D6 [ 6]  READY  -> 준비
+  bonus          $8A13 [23]  WARP BONUS / OIL.1000 / POINT -> 워프보너스 / 기름.1000 / 점
+  title_menu     $8B1A [32]  1PLAYER / 2PLAYERS / JALECO / 1P TOP 2P -> 1인용 / 2인용 / JALECO(원문 유지) / 1P TOP 2P(원문 유지)
+  player_label   $8B48 [ 7]   PLAYER ->  PLAYER (원문 유지)
+  title_copyright $8B42 [ 6]  © 1985 -> 원문 유지
+  ending         $8E0A [54]  NOW,YOU HAVE DRIVEN / ALL THE HIGHWAY!! / OIL .100= -> 이제 모두 / 달렸다 / 기름 ✳100
+  hud            $A2BC [30]  UP     00     KM OIL     _     -> UP 원문 유지 / OIL -> 기름
+
+타이틀 로고 합침: 타일 32종 + 타일맵 1건

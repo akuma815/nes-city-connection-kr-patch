@@ -1,0 +1,104 @@
+{
+  "_comment": "City Connection (Japan) 조사 결과 상수. 주소는 CPU 기준($8000 = PRG 오프셋 0).",
+  "rom": {
+    "file": "City Connection (Japan).nes",
+    "size": 32784,
+    "sha256": "6476d10be301a331904bb42db0bd9811d13ff4ba991c32611b7c746d3560f61f",
+    "mapper": 87,
+    "prg_size": 16384,
+    "chr_size": 16384,
+    "prg_cpu_base": 33792,
+    "prg_cpu_base_hex": "0x8000"
+  },
+  "chr": {
+    "bank_size": 8192,
+    "banks": 2,
+    "pattern_table_0_offset": 0,
+    "pattern_table_1_offset": 4096,
+    "font_table": "pattern_table_1",
+    "font_tile_range": ["0x28", "0x5F"],
+    "font_identical_across_banks": true
+  },
+  "control_codes": {
+    "0xFE": "newline",
+    "0xFF": "terminator",
+    "0x40": "space"
+  },
+  "_tile_map_note": "PT1($1000)의 폰트 영역. 판정은 원본 ROM 40,000프레임 실행의 네임테이블 집계 + 카나리아 빌드 결과다. 갱신은 analyze_tile_usage.py로 다시 계산한다.",
+  "tile_map": {
+    "0x28-0x2C": "blank — 1스테이지 범위 미관측. 회수 후보(뒤 도시 미확인)",
+    "0x2D": ", — 원문 문자열 전용. 회수 가능",
+    "0x2E": ". (보너스·엔딩의 마침표) — 원문 문자열 전용. 회수 가능",
+    "0x2F": "! — 원문 문자열 전용. 회수 가능",
+    "0x30-0x39": "0-9 — 회수 금지",
+    "0x3A": "블록 — 배경 205,420회. 회수 금지",
+    "0x3B": "블록 — 배경 15,988회. 회수 금지",
+    "0x3C": "블록 — 미관측이나 형제 타일과 함께 보호",
+    "0x3D": "블록 — 배경 73,826회. 회수 금지",
+    "0x3E": "블록 — 배경 38,534회. 회수 금지",
+    "0x3F": "하늘 타일 — 배경 310,866회. 회수 금지 (ROM에서는 비어 보이지만 실제로 쓰인다)",
+    "0x40": "space — 배경 305,362회. 회수 금지",
+    "0x41-0x45": "A-E — 원문 문자열 전용. 회수 가능",
+    "0x46": "F — 어떤 문자열에도 없음. 미관측 회수 후보",
+    "0x47-0x50": "G-P — 원문 문자열 전용. 회수 가능",
+    "0x51": "Q — 어떤 문자열에도 없음. 미관측 회수 후보",
+    "0x52-0x57": "R-W — 원문 문자열 전용. 회수 가능",
+    "0x58": "X — 어떤 문자열에도 없음. 미관측 회수 후보",
+    "0x59": "Y — 원문 문자열 전용. 회수 가능",
+    "0x5A": "Z — 어떤 문자열에도 없음. 미관측 회수 후보",
+    "0x5B": "- — 미관측 회수 후보",
+    "0x5C": ". — 카운트다운 '2.4'가 사용. 회수 금지",
+    "0x5D": "= — 원문 문자열 전용. 회수 가능",
+    "0x5E": "(c) — 미관측 회수 후보",
+    "0x5F": "소형 기호 — HUD 문자열에 포함. 회수 가능"
+  },
+  "glyph_budget": {
+    "confirmed": ["0x2D", "0x2E", "0x2F", "0x41", "0x42", "0x43", "0x44", "0x45", "0x47", "0x48", "0x49", "0x4A", "0x4B", "0x4C", "0x4D", "0x4E", "0x4F", "0x50", "0x52", "0x53", "0x54", "0x55", "0x56", "0x57", "0x59", "0x5D", "0x5F"],
+    "confirmed_count": 27,
+    "candidate": ["0x28", "0x29", "0x2A", "0x2B", "0x2C", "0x46", "0x51", "0x58", "0x5A", "0x5B", "0x5E"],
+    "candidate_count": 11,
+    "canary_verified": ["0x28", "0x29", "0x2A", "0x2B", "0x2C", "0x46", "0x51", "0x58", "0x5A", "0x5B", "0x5E"],
+    "canary_evidence": "build/canary_blank.nes로 6개 도시(A0=0..5) 각 3,000프레임 실행. 스크린샷 18장 전부에서 체커보드 미출현. work/qa/canary_all_stages.png. 같은 6개 도시의 원본 ROM 네임테이블 집계에서도 PT1 사용 0회.",
+    "total_available": 38,
+    "coverage_caveat": "엔딩 화면은 도달하지 못해 미검증이다. 다만 엔딩이 쓰는 타일은 전부 원문 문자열 안에 있다."
+  },
+  "screens": {
+    "title": { "bg_pattern_table": "PT0", "sprite_pattern_table": "PT1", "note": "로고·점수 숫자는 BG(PT0). 메뉴 문자(1PLAYER/2PLAYERS/JALECO/1P TOP 2P)는 스프라이트이며 PT1 폰트를 쓴다. 각 줄 정확히 스프라이트 8개 — 번역문도 한 줄 8타일 한계." },
+    "gameplay": { "bg_pattern_table": "PT1", "sprite_pattern_table": "PT0", "note": "HUD·READY·GAME OVER가 BG(PT1)" },
+    "mid_frame_split": false
+  },
+  "_strings_note": "length는 PRG에서 실제로 읽히는 바이트 수다. 도구는 text 전사가 아니라 addr+length로 prg.bin을 직접 읽는다. 코드 사이에 끼어 있으므로 길이를 바꾸면 뒤 코드가 밀린다.",
+  "strings": [
+    { "id": "game_over", "addr": "0x81FB", "length": 9, "text": "GAME OVER", "ref": ["0x81A4"], "draw": { "ppuaddr": "0x21CB", "count": 9, "code": "0x819C" } },
+    { "id": "ready", "addr": "0x82D6", "length": 6, "text": "READY ", "ref": ["0x82C8"], "draw": { "ppuaddr": "0x2093", "count": 6, "code": "0x82B7" } },
+    { "id": "bonus_block", "addr": "0x8A13", "length": 24, "text": "WARP BONUSOIL.1000POINT ", "ref": ["0x89DE", "0x89F3", "0x8A08"] },
+    { "id": "title_menu", "addr": "0x8B1A", "length": 32, "text": "1PLAYER 2PLAYERSJALECO  1PTOP2P ", "ref": ["0x8AD9"] },
+    { "id": "title_copyright", "addr": "0x8B42", "length": 13, "text": "= 1985 PLAYER", "ref": ["0x8B0F"] },
+    { "id": "title_logo_tilemap", "addr": "0x8D94", "length": 118, "width": 21, "rows": 6, "pattern_table": "bank0 pattern_table_0", "draw": { "code": "0x8A3D", "reads_from": "0x8D94", "ppuaddr": "0x2105", "screen": "8행 5열, 0xFE마다 +32", "terminator": "0xFF" }, "note": "$8D93의 0x60은 앞 루틴의 RTS이지 로고 데이터가 아니다. 앞서 찾은 참조 $82C1/$8572는 LDA #$93 오탐이었다." },
+    { "id": "ending", "addr": "0x8E0A", "length": 54, "text": "NOW,YOU HAVE DRIVEN / ALL THE HIGHWAY!! /  OIL   .100=" },
+    { "id": "hud", "addr": "0xA2BC", "length": 30, "text": "UP     00     KM OIL     _    ", "ref": ["0xA375"] }
+  ],
+  "graphics": {
+    "pause_sprite_tiles": { "table": "pattern_table_0", "range": ["0xB6", "0xBA"], "note": "두 뱅크 동일" },
+    "logo_pixel_values": { "1": "하이라이트(흰)", "2": "본체(분홍) 46%", "3": "그림자(살구)", "note": "새 로고도 같은 값을 써야 팔레트를 안 건드린다" },
+    "logo_safe_tiles_pt0_bank0": ["0x3E", "0x3F", "0x41", "0x42", "0x43", "0x44", "0x45", "0x46", "0x47", "0x48", "0x49", "0x4A", "0x4B", "0x4C", "0x4D", "0x4E", "0x4F", "0x51", "0x52", "0x53", "0x54", "0x55", "0x56", "0x57", "0x58", "0x59", "0x5A", "0x5B", "0x5C", "0x5D", "0x5E", "0x5F"],
+    "logo_blocked_tiles": { "0x40": "빈 타일 — 스프라이트가 투명으로 씀. 비워 둔 채로만 사용", "0x50": "게임 스프라이트 234회", "0x60": "로고 데이터가 아님(앞 루틴의 RTS)" }
+  },
+  "chr_bank_writes": ["0x8059", "0x823F", "0x86B5", "0xA2DF"],
+  "ppuctrl_shadow_zp": "0x20",
+  "variables": {
+    "stage_index_zp": "0xA0",
+    "lap_counter_zp": "0xA1",
+    "chr_bank_zp": "0x67",
+    "stage_count": 6,
+    "stage_to_chr_bank_table": { "addr": "0xA2B6", "bytes": "00 00 FF 00 FF FF", "note": "값 0x00=뱅크0, 0xFF=뱅크1. 스테이지 2·4·5가 뱅크 1." },
+    "stage_advance_code": "0x822F",
+    "stage_init_code": "0xA2DA",
+    "cities": ["뉴욕", "런던", "파리", "독일(노이슈반슈타인)", "인도(타지마할)", "일본(오층탑)"],
+    "how_to_force_stage": "run_qa.py --poke A0=<0..5> — 매 프레임 시작 시 강제 기록해 원하는 도시를 로드한다"
+  },
+  "free_prg_space": [
+    { "start": "0x88E0", "end": "0x8902", "size": 35, "fill": "0x00" },
+    { "start": "0xBFE0", "end": "0xBFF9", "size": 26, "fill": "0xFF" }
+  ]
+}

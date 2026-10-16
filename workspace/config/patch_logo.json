@@ -1,0 +1,272 @@
+{
+  "name": "logo_kr",
+  "description": "타이틀 로고를 '시티 커넥션'으로 교체 (RixInooAriDuri Regular.ttf 22px grid3x3 시티:7:0,커넥션:6:3 +그림자1px +테두리(값1))",
+  "_constraints": "$8D94부터 118바이트 고정, 유니크 타일 32개 이내, 화면 8행 5열 시작, 0xFE=줄바꿈 0xFF=끝",
+  "_tiles_are_pt0_bank0": "로고는 PT0을 쓰고 타이틀 화면은 CHR 뱅크 0이다. 뱅크 1은 건드리지 않는다.",
+  "glyphs": [
+    {
+      "tile": "0x3E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00030408080808080000030707070707"
+    },
+    {
+      "tile": "0x3F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00c021120a0e0e0e0000c0e1f1f5f5f5"
+    },
+    {
+      "tile": "0x41",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00f00804060606060000f0f8fafafafa"
+    },
+    {
+      "tile": "0x42",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "000f10202020202000000f1f1f1f1f1f"
+    },
+    {
+      "tile": "0x43",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00f80502020202020000f8fdfdfdfdfd"
+    },
+    {
+      "tile": "0x44",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "080808080810102007070707070f0f1f"
+    },
+    {
+      "tile": "0x45",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0e0e0e0e0e0e0e06f5f5f5f5f5f5f5f9"
+    },
+    {
+      "tile": "0x46",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0606060606060606fafafafafafafafa"
+    },
+    {
+      "tile": "0x47",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "20202020202020201f1f1f1f1f1f1f1f"
+    },
+    {
+      "tile": "0x48",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "7e7e02020202027e8181fdfdfdfdfd81"
+    },
+    {
+      "tile": "0x49",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040404041271f0c3f3f3f3f3e19070c"
+    },
+    {
+      "tile": "0x4A",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0202020282e23f0efdfdfdfd7d9d220e"
+    },
+    {
+      "tile": "0x4B",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060606060606fefcfafafafafafa06fc"
+    },
+    {
+      "tile": "0x4C",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "2020202020201f0f1f1f1f1f1f1f000f"
+    },
+    {
+      "tile": "0x4D",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060202020202fffef9fdfdfdfdfd02fe"
+    },
+    {
+      "tile": "0x4E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "001f20404040404000001f3f3f3f3f3f"
+    },
+    {
+      "tile": "0x4F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "003c43810000008000003c7effffff7f"
+    },
+    {
+      "tile": "0x51",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00e11608080808080000e1f7f7f7f7f7"
+    },
+    {
+      "tile": "0x52",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "3f20404040403c18001f3f3f3f3f0307"
+    },
+    {
+      "tile": "0x53",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0000000000000004fffffffffffffffb"
+    },
+    {
+      "tile": "0x54",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "40404040403f40403f3f3f3f3f003f3f"
+    },
+    {
+      "tile": "0x55",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040404141ff0000bfbfbfbebe00ffff"
+    },
+    {
+      "tile": "0x56",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060606060efc0804fafafafaf60cf0f8"
+    },
+    {
+      "tile": "0x57",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "10202020202319200f1f1f1f1f1c061f"
+    },
+    {
+      "tile": "0x58",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0000000282e6be4efffffffd7d99258d"
+    },
+    {
+      "tile": "0x59",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "2040404040433f1e1f3f3f3f3f3c031e"
+    },
+    {
+      "tile": "0x5A",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0c1c3c74e2c28100f3ebdbb361c18000"
+    },
+    {
+      "tile": "0x5B",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "06060606060efcf8fafafafafaf60cf8"
+    },
+    {
+      "tile": "0x5C",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040403f1f0000003f3f3f001f000000"
+    },
+    {
+      "tile": "0x5D",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "000000fcfc040301ffffff03fb030001"
+    },
+    {
+      "tile": "0x5E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "7f0000000000ffff80ffffffffff00ff"
+    },
+    {
+      "tile": "0x5F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "fe0406060606fefc06f8fafafafa06fc"
+    }
+  ],
+  "strings": [
+    {
+      "id": "title_logo_tilemap",
+      "addr": "0x8D94",
+      "original": "40 40 40 40 51 52 53 FE 44 46 45 40 54 55 56 40 40 40 40 40 40 40 40 40 40 40 40 40 3F FE 47 48 40 57 58 5E 3F 5E 3F 4F 5C 57 5C 42 43 5C 3F 57 58 5E 59 FE 5D 40 40 59 59 5D 59 5D 59 50 5C 59 40 40 59 40 59 59 59 5D 59 FE 49 4A 40 5A 5B 41 5F 41 5F 5A 5C 5A 5C 40 5F 40 5F 5A 5B 5D 59 FE 4B 4C 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4E 5F FF",
+      "tiles": "40 40 40 40 40 40 40 3E 3F 41 42 43 41 FE 40 40 40 40 40 40 40 44 45 46 47 48 46 FE 40 40 40 40 40 40 40 49 4A 4B 4C 4D 4B FE 40 40 40 40 40 40 4E 43 41 4E 4F 41 3E 51 41 FE 40 40 40 40 40 40 52 53 46 54 55 56 57 58 46 FE 40 40 40 40 40 40 59 5A 5B 5C 5D 5B 4C 5E 5F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF"
+    }
+  ]
+}

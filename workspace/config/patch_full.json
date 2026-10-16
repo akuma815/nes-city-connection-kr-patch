@@ -1,0 +1,484 @@
+{
+  "name": "city_connection_kr",
+  "description": "City Connection (Japan) 한글화 전량 패치. workspace/text/translation/translation.json에서 생성됨 — 직접 고치지 말 것.",
+  "_generated_by": "workspace/scripts/build_translation.py",
+  "glyphs": [
+    {
+      "tile": "0x28",
+      "table": "bg",
+      "char": "게"
+    },
+    {
+      "tile": "0x29",
+      "table": "bg",
+      "char": "임"
+    },
+    {
+      "tile": "0x2A",
+      "table": "bg",
+      "char": "오"
+    },
+    {
+      "tile": "0x2B",
+      "table": "bg",
+      "char": "버"
+    },
+    {
+      "tile": "0x2C",
+      "table": "bg",
+      "char": "준"
+    },
+    {
+      "tile": "0x2D",
+      "table": "bg",
+      "char": "비"
+    },
+    {
+      "tile": "0x2F",
+      "table": "bg",
+      "char": "워"
+    },
+    {
+      "tile": "0x42",
+      "table": "bg",
+      "char": "프"
+    },
+    {
+      "tile": "0x44",
+      "table": "bg",
+      "char": "보"
+    },
+    {
+      "tile": "0x46",
+      "table": "bg",
+      "char": "너"
+    },
+    {
+      "tile": "0x47",
+      "table": "bg",
+      "char": "스"
+    },
+    {
+      "tile": "0x48",
+      "table": "bg",
+      "char": "기"
+    },
+    {
+      "tile": "0x49",
+      "table": "bg",
+      "char": "름"
+    },
+    {
+      "tile": "0x4E",
+      "table": "bg",
+      "char": "점"
+    },
+    {
+      "tile": "0x51",
+      "table": "bg",
+      "char": "인"
+    },
+    {
+      "tile": "0x53",
+      "table": "bg",
+      "char": "용"
+    },
+    {
+      "tile": "0x56",
+      "table": "bg",
+      "char": "이"
+    },
+    {
+      "tile": "0x57",
+      "table": "bg",
+      "char": "제"
+    },
+    {
+      "tile": "0x58",
+      "table": "bg",
+      "char": "모"
+    },
+    {
+      "tile": "0x5A",
+      "table": "bg",
+      "char": "두"
+    },
+    {
+      "tile": "0x5B",
+      "table": "bg",
+      "char": "달"
+    },
+    {
+      "tile": "0x5D",
+      "table": "bg",
+      "char": "렸"
+    },
+    {
+      "tile": "0x5E",
+      "table": "bg",
+      "char": "다"
+    },
+    {
+      "tile": "0xB7",
+      "table": "sprite",
+      "color": 3,
+      "banks": [
+        0,
+        1
+      ],
+      "char": "일"
+    },
+    {
+      "tile": "0xB8",
+      "table": "sprite",
+      "color": 3,
+      "banks": [
+        0,
+        1
+      ],
+      "char": "시"
+    },
+    {
+      "tile": "0xB9",
+      "table": "sprite",
+      "color": 3,
+      "banks": [
+        0,
+        1
+      ],
+      "char": "정"
+    },
+    {
+      "tile": "0xBA",
+      "table": "sprite",
+      "color": 3,
+      "banks": [
+        0,
+        1
+      ],
+      "char": "지"
+    },
+    {
+      "tile": "0xBB",
+      "table": "sprite",
+      "color": 3,
+      "banks": [
+        0,
+        1
+      ],
+      "pattern": "blank"
+    },
+    {
+      "tile": "0x3E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00030408080808080000030707070707"
+    },
+    {
+      "tile": "0x3F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00c021120a0e0e0e0000c0e1f1f5f5f5"
+    },
+    {
+      "tile": "0x41",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00f00804060606060000f0f8fafafafa"
+    },
+    {
+      "tile": "0x42",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "000f10202020202000000f1f1f1f1f1f"
+    },
+    {
+      "tile": "0x43",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00f80502020202020000f8fdfdfdfdfd"
+    },
+    {
+      "tile": "0x44",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "080808080810102007070707070f0f1f"
+    },
+    {
+      "tile": "0x45",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0e0e0e0e0e0e0e06f5f5f5f5f5f5f5f9"
+    },
+    {
+      "tile": "0x46",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0606060606060606fafafafafafafafa"
+    },
+    {
+      "tile": "0x47",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "20202020202020201f1f1f1f1f1f1f1f"
+    },
+    {
+      "tile": "0x48",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "7e7e02020202027e8181fdfdfdfdfd81"
+    },
+    {
+      "tile": "0x49",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040404041271f0c3f3f3f3f3e19070c"
+    },
+    {
+      "tile": "0x4A",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0202020282e23f0efdfdfdfd7d9d220e"
+    },
+    {
+      "tile": "0x4B",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060606060606fefcfafafafafafa06fc"
+    },
+    {
+      "tile": "0x4C",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "2020202020201f0f1f1f1f1f1f1f000f"
+    },
+    {
+      "tile": "0x4D",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060202020202fffef9fdfdfdfdfd02fe"
+    },
+    {
+      "tile": "0x4E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "001f20404040404000001f3f3f3f3f3f"
+    },
+    {
+      "tile": "0x4F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "003c43810000008000003c7effffff7f"
+    },
+    {
+      "tile": "0x51",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "00e11608080808080000e1f7f7f7f7f7"
+    },
+    {
+      "tile": "0x52",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "3f20404040403c18001f3f3f3f3f0307"
+    },
+    {
+      "tile": "0x53",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0000000000000004fffffffffffffffb"
+    },
+    {
+      "tile": "0x54",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "40404040403f40403f3f3f3f3f003f3f"
+    },
+    {
+      "tile": "0x55",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040404141ff0000bfbfbfbebe00ffff"
+    },
+    {
+      "tile": "0x56",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "060606060efc0804fafafafaf60cf0f8"
+    },
+    {
+      "tile": "0x57",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "10202020202319200f1f1f1f1f1c061f"
+    },
+    {
+      "tile": "0x58",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0000000282e6be4efffffffd7d99258d"
+    },
+    {
+      "tile": "0x59",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "2040404040433f1e1f3f3f3f3f3c031e"
+    },
+    {
+      "tile": "0x5A",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "0c1c3c74e2c28100f3ebdbb361c18000"
+    },
+    {
+      "tile": "0x5B",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "06060606060efcf8fafafafafaf60cf8"
+    },
+    {
+      "tile": "0x5C",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "4040403f1f0000003f3f3f001f000000"
+    },
+    {
+      "tile": "0x5D",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "000000fcfc040301ffffff03fb030001"
+    },
+    {
+      "tile": "0x5E",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "7f0000000000ffff80ffffffffff00ff"
+    },
+    {
+      "tile": "0x5F",
+      "table": "sprite",
+      "banks": [
+        0
+      ],
+      "bytes": "fe0406060606fefc06f8fafafafa06fc"
+    }
+  ],
+  "strings": [
+    {
+      "id": "game_over",
+      "addr": "0x81FB",
+      "original": "47 41 4D 45 40 4F 56 45 52",
+      "tiles": "40 40 28 29 40 2A 2B 40 40"
+    },
+    {
+      "id": "ready",
+      "addr": "0x82D6",
+      "original": "52 45 41 44 59 40",
+      "tiles": "40 40 2C 2D 40 40"
+    },
+    {
+      "id": "bonus",
+      "addr": "0x8A13",
+      "original": "57 41 52 50 40 42 4F 4E 55 53 4F 49 4C 2E 31 30 30 30 50 4F 49 4E 54",
+      "tiles": "40 40 2F 42 44 46 47 40 40 40 40 48 49 2E 31 30 30 30 40 40 4E 40 40"
+    },
+    {
+      "id": "title_menu",
+      "addr": "0x8B1A",
+      "original": "31 50 4C 41 59 45 52 40 32 50 4C 41 59 45 52 53 4A 41 4C 45 43 4F 40 40 31 50 54 4F 50 32 50 40",
+      "tiles": "31 51 53 40 40 40 40 40 32 51 53 40 40 40 40 40 4A 41 4C 45 43 4F 40 40 31 50 54 4F 50 32 50 40"
+    },
+    {
+      "id": "player_label",
+      "addr": "0x8B48",
+      "original": "40 50 4C 41 59 45 52",
+      "tiles": "40 50 4C 41 59 45 52"
+    },
+    {
+      "id": "title_copyright",
+      "addr": "0x8B42",
+      "original": "3D 40 31 39 38 35",
+      "tiles": "3D 40 31 39 38 35"
+    },
+    {
+      "id": "ending",
+      "addr": "0x8E0A",
+      "original": "4E 4F 57 2D 59 4F 55 40 48 41 56 45 40 44 52 49 56 45 4E FE FE 40 41 4C 4C 40 54 48 45 40 48 49 47 48 57 41 59 2F 2F FE FE FE 40 4F 49 4C 40 40 40 2E 31 30 30 5D",
+      "tiles": "40 40 40 40 40 40 40 56 57 40 58 5A 40 40 40 40 40 40 40 FE FE 40 40 40 40 40 40 40 5B 5D 5E 40 40 40 40 40 40 40 40 FE FE FE 40 48 49 40 40 40 40 2E 31 30 30 40"
+    },
+    {
+      "id": "hud",
+      "addr": "0xA2BC",
+      "original": "55 50 40 40 40 40 40 30 30 40 40 40 40 40 4B 4D 40 4F 49 4C 40 40 40 40 40 5F 40 40 40 40",
+      "tiles": "55 50 40 40 40 40 40 30 30 40 40 40 40 40 4B 4D 40 48 49 40 40 40 40 40 40 5F 40 40 40 40"
+    },
+    {
+      "id": "title_logo_tilemap",
+      "addr": "0x8D94",
+      "original": "40 40 40 40 51 52 53 FE 44 46 45 40 54 55 56 40 40 40 40 40 40 40 40 40 40 40 40 40 3F FE 47 48 40 57 58 5E 3F 5E 3F 4F 5C 57 5C 42 43 5C 3F 57 58 5E 59 FE 5D 40 40 59 59 5D 59 5D 59 50 5C 59 40 40 59 40 59 59 59 5D 59 FE 49 4A 40 5A 5B 41 5F 41 5F 5A 5C 5A 5C 40 5F 40 5F 5A 5B 5D 59 FE 4B 4C 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4D 4E 5F FF",
+      "tiles": "40 40 40 40 40 40 40 3E 3F 41 42 43 41 FE 40 40 40 40 40 40 40 44 45 46 47 48 46 FE 40 40 40 40 40 40 40 49 4A 4B 4C 4D 4B FE 40 40 40 40 40 40 4E 43 41 4E 4F 41 3E 51 41 FE 40 40 40 40 40 40 52 53 46 54 55 56 57 58 46 FE 40 40 40 40 40 40 59 5A 5B 5C 5D 5B 4C 5E 5F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF"
+    }
+  ]
+}

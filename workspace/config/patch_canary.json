@@ -1,0 +1,19 @@
+{
+  "name": "canary_tiles",
+  "description": "회수 후보 타일이 실제로 배경에 그려지는지 보는 카나리아 빌드(docs/decisions.md D-004).",
+  "_how_to_read": "게임 전 화면에서 체커보드가 하나도 안 보이면 해당 타일은 미사용이므로 한글 슬롯으로 회수해도 된다. 하늘·건물·HUD 어디든 체커보드가 뜨면 그 타일은 회수 금지다.",
+  "_targets": "0x28-0x2C 빈 타일 5개, 0x3F 빈 타일, 그리고 미사용으로 추정한 영문자 F/Q/X/Z",
+  "glyphs": [
+    { "tile": "0x28", "pattern": "canary" },
+    { "tile": "0x29", "pattern": "canary" },
+    { "tile": "0x2A", "pattern": "canary" },
+    { "tile": "0x2B", "pattern": "canary" },
+    { "tile": "0x2C", "pattern": "canary" },
+    { "tile": "0x3F", "pattern": "canary", "force": true },
+    { "tile": "0x46", "pattern": "canary" },
+    { "tile": "0x51", "pattern": "canary" },
+    { "tile": "0x58", "pattern": "canary" },
+    { "tile": "0x5A", "pattern": "canary" }
+  ],
+  "strings": []
+}

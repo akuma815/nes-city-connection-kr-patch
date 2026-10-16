@@ -1,0 +1,460 @@
+{
+  "name": "canary_pt0",
+  "description": "타이틀 로고를 다시 그릴 때 쓸 PT0 후보 인덱스가 실제로 비어 있는지 검사한다.",
+  "_targets": "analyze_logo.py의 [B] 목록 90개. PT0(스프라이트 테이블)에 체커보드를 넣는다.",
+  "_how_to_read": "타이틀·6개 도시·PAUSE 어디에도 체커보드가 없으면 그 인덱스는 새 로고 타일로 써도 된다.",
+  "_how_to_run": "python workspace/scripts/run_qa.py build/canary_pt0.nes --out work/qa/pt0_s<N> --poke A0=<N>",
+  "glyphs": [
+    {
+      "tile": "0x10",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x11",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x12",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x13",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x14",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x15",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x16",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x17",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x18",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x19",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x1B",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x1C",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x20",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x21",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x22",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x23",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x24",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x25",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x26",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x27",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x28",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x29",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x2A",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x2B",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x2D",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x2E",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x2F",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x32",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x33",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x34",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x36",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x37",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x3A",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x3B",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x3C",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x3E",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x69",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x6E",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x73",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x75",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x76",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x77",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x78",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x79",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x7A",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x7E",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x7F",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x80",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x81",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x82",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x83",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x84",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x85",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x86",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x87",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x88",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x89",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x90",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x91",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x92",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x93",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x94",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x95",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x96",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x97",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x98",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x99",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9A",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9B",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9C",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9D",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9E",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0x9F",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xA0",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xA1",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xAE",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xAF",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB0",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB1",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB2",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB3",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB4",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB5",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB6",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB7",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB8",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xB9",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xBA",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xBB",
+      "table": "sprite",
+      "pattern": "canary"
+    },
+    {
+      "tile": "0xBC",
+      "table": "sprite",
+      "pattern": "canary"
+    }
+  ],
+  "strings": []
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "status": "PASS: patch reverse-verified and apply helper tested",
+  "distribution_policy": "single ROM patch, Japan revision only",
+  "contains_original_game_files": false,
+  "release_date": "20260812",
+  "patches": [
+    {
+      "id": "JP",
+      "rom": "City Connection (Japan).nes",
+      "mapper": 87,
+      "patch": "CityConnection_KR_20260812.xdelta",
+      "patch_size": 1336,
+      "patch_sha256": "579a69034140fe18a0ed3db8a68561261eb7da8c3a63fef00699d4989d6dad7b",
+      "source_size": 32784,
+      "source_sha256": "6476d10be301a331904bb42db0bd9811d13ff4ba991c32611b7c746d3560f61f",
+      "target_size": 32784,
+      "target_sha256": "03f0de5a1bac876873cdbae143d84980f99154bb9b796b2db4edbd5e6079fca4",
+      "reverse_verification": "PASS"
+    }
+  ],
+  "apply_script_end_to_end": {
+    "JP": "PASS: apply.ps1 reproduced the target hash from a source path containing spaces",
+    "rejects_wrong_source": "PASS"
+  },
+  "coverage": {
+    "translated": [
+      "game_over",
+      "ready",
+      "bonus",
+      "ending",
+      "pause",
+      "title_logo"
+    ],
+    "kept_original": [
+      "title_menu",
+      "player_label",
+      "title_copyright",
+      "hud"
+    ]
+  },
+  "constraints": {
+    "bg_font_slots_total": 38,
+    "slots_reserved_for_latin": 15,
+    "slots_used_by_hangul": 23,
+    "slots_spare": 0,
+    "logo_tile_budget": 32,
+    "logo_data_bytes": 118,
+    "note": "string lengths are fixed because the text is embedded between code bytes"
+  },
+  "verification": {
+    "unmodified_roundtrip": "PASS",
+    "expected_write": "PASS: 0 bytes changed outside declared offsets",
+    "string_audit": "PASS: every PPUDATA draw loop is covered by the ledger",
+    "static_string_render": "PASS: work/string_preview.png",
+    "emulator_sweep": "PASS: Mesen headless, 20000 frames attract loop, no broken screens",
+    "tile_conflict_all_cities": "PASS: canary build across all 6 cities and both CHR banks",
+    "hardware": "not tested"
+  }
+}

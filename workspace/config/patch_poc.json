@@ -1,0 +1,18 @@
+{
+  "name": "poc_ready",
+  "description": "최소 PoC — READY를 준비로. 다른 문자열에 전혀 쓰이지 않는 F(0x46)/Q(0x51) 슬롯만 회수한다.",
+  "_slot_note": "전 문자열이 쓰는 영문자는 A B C D E G H I J K L M N O P R S T U V W Y다. F Q X Z 4개만 미사용이므로 PoC는 그중 2개만 건드린다.",
+  "glyphs": [
+    { "tile": "0x46", "char": "준" },
+    { "tile": "0x51", "char": "비" }
+  ],
+  "strings": [
+    {
+      "id": "ready",
+      "addr": "0x82D6",
+      "_screen": "PPUADDR $2093 (row 4, col 19)에서 6타일 기록",
+      "original": "52 45 41 44 59 40",
+      "tiles": "40 40 46 51 40 40"
+    }
+  ]
+}

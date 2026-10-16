@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-16",
+  "project": "시티 커넥션",
+  "files": [
+    {
+      "path": "docs/build.md",
+      "source": "docs/build.md",
+      "bytes": 4076,
+      "sha256": "f6f2166cdaa6e036be323614eb4547ea7fe0ce59e29d8d1896e07fbda593dbaa"
+    },
+    {
+      "path": "docs/decisions.md",
+      "source": "docs/decisions.md",
+      "bytes": 16442,
+      "sha256": "7d435f4f39ec33b50d0b3aaf1407391976b62e75b373e62d02745898abca8fe6"
+    },
+    {
+      "path": "docs/format.md",
+      "source": "docs/format.md",
+      "bytes": 2883,
+      "sha256": "fc23ebdf120ff823cc4dc1695dd62f7ec0e55033cb5fd85b785648ed21275a2b"
+    },
+    {
+      "path": "docs/qa.md",
+      "source": "docs/qa.md",
+      "bytes": 5122,
+      "sha256": "35cb7756a7a248b7bc4a8d6a6a78e4b724fa2e1e6ce4b872e4b3728afc9856b7"
+    },
+    {
+      "path": "docs/survey.md",
+      "source": "docs/survey.md",
+      "bytes": 10377,
+      "sha256": "b4395019cac80de12f9f12af1e1d1aa8cb8580b1383f09fbc7b72feea7116a5a"
+    },
+    {
+      "path": "workspace/config/patch_canary.json",
+      "source": "workspace/config/patch_canary.json",
+      "bytes": 1024,
+      "sha256": "2b7966c433c15b4567f2fa3ce1be6da4993ce10a9291327258d97b22926c3b3d"
+    },
+    {
+      "path": "workspace/config/patch_canary_blank.json",
+      "source": "workspace/config/patch_canary_blank.json",
+      "bytes": 1052,
+      "sha256": "359a5d22ea7929b289e127b1f34862546564174b6b02a5b3781df9083bf466fe"
+    },
+    {
+      "path": "workspace/config/patch_canary_pt0.json",
+      "source": "workspace/config/patch_canary_pt0.json",
+      "bytes": 8760,
+      "sha256": "d4f126cab5509c3a883ba5273d17081adf1b6b07c7f4fa70bcedb640847d3a1a"
+    },
+    {
+      "path": "workspace/config/patch_full.json",
+      "source": "workspace/config/patch_full.json",
+      "bytes": 10538,
+      "sha256": "079f316409b1767a140d84772bdcf272363ed4e2aa9e088d30fa776fe5a581d8"
+    },
+    {
+      "path": "workspace/config/patch_logo.json",
+      "source": "workspace/config/patch_logo.json",
+      "bytes": 6255,
+      "sha256": "e7cfd67f653cf81946f3e13636c7068c99143d388d566dc21059fef125080751"
+    },
+    {
+      "path": "workspace/config/patch_poc.json",
+      "source": "workspace/config/patch_poc.json",
+      "bytes": 658,
+      "sha256": "59cdf3bfc6c6eae78ed74247f4555b64ae6087e668818eaf5ffbe406d2dc715f"
+    },
+    {
+      "path": "workspace/config/rom_map.json",
+      "source": "workspace/config/rom_map.json",
+      "bytes": 7417,
+      "sha256": "88ad96997c5d3585a8fc9d6bfbe192a53eb2cfd99b8da09f50790e5555145b38"
+    },
+    {
+      "path": "workspace/scripts/analyze_logo.py",
+      "source": "workspace/scripts/analyze_logo.py",
+      "bytes": 5141,
+      "sha256": "9052bb479bfc829ffdd5f8bf955ac003978986b0395d6e5ac1128a08ee63c28f"
+    },
+    {
+      "path": "workspace/scripts/analyze_tile_usage.py",
+      "source": "workspace/scripts/analyze_tile_usage.py",
+      "bytes": 6797,
+      "sha256": "ec5baf3f6d75bab53b1e5dd2def5eb310d5c02165a151d4f888618d97b1805b9"
+    },
+    {
+      "path": "workspace/scripts/audit_strings.py",
+      "source": "workspace/scripts/audit_strings.py",
+      "bytes": 3727,
+      "sha256": "3995ba0a80d49c19aa3b93a26467e51f2614566a5d1d46c633447d531649376e"
+    },
+    {
+      "path": "workspace/scripts/build_all.py",
+      "source": "workspace/scripts/build_all.py",
+      "bytes": 2387,
+      "sha256": "2b734805920ac0364168233a4f0c01d587aa0f5b5d024a4635551681c2376265"
+    },
+    {
+      "path": "workspace/scripts/build_patch.py",
+      "source": "workspace/scripts/build_patch.py",
+      "bytes": 7635,
+      "sha256": "16d16ce0d1bb7efd249b7eb0f7de1645b5c52699a4540f0404f1b12f19cd139a"
+    },
+    {
+      "path": "workspace/scripts/build_rom.py",
+      "source": "workspace/scripts/build_rom.py",
+      "bytes": 2164,
+      "sha256": "476702ced5fd872bde21e23904189401c9a4dac6755c1b8a7723fc6bf63320e7"
+    },
+    {
+      "path": "workspace/scripts/build_translation.py",
+      "source": "workspace/scripts/build_translation.py",
+      "bytes": 8863,
+      "sha256": "a36c89158456981c079706348d70aeac0b72f82baca9dbda910009df04441422"
+    },
+    {
+      "path": "workspace/scripts/chr_to_png.py",
+      "source": "workspace/scripts/chr_to_png.py",
+      "bytes": 2040,
+      "sha256": "044a9257d2a0e7fa6f5ed6d28960ab1f807542d712f6a014872a8a9162e79956"
+    },
+    {
+      "path": "workspace/scripts/contact_sheet.py",
+      "source": "workspace/scripts/contact_sheet.py",
+      "bytes": 2039,
+      "sha256": "34050cbba35c2b45f06f03ff140174aae12a52372db86a877552574e7b7a4fbd"
+    },
+    {
+      "path": "workspace/scripts/design_logo.py",
+      "source": "workspace/scripts/design_logo.py",
+      "bytes": 23138,
+      "sha256": "749ac2773421121d2fd418756ba9cd51ea2a60f8dff866bfb13ce6142dbc68f7"
+    },
+    {
+      "path": "workspace/scripts/extract_rom.py",
+      "source": "workspace/scripts/extract_rom.py",
+      "bytes": 2229,
+      "sha256": "62971f7712f8e1e06a16a3d3fc6570b71eb994ec3371b4070840287b0f7d10b8"
+    },
+    {
+      "path": "workspace/scripts/hexdump.py",
+      "source": "workspace/scripts/hexdump.py",
+      "bytes": 1753,
+      "sha256": "154a4364318633685a4bd5987e0c53b7de681c321a9b9ca05d4149aba1ca7938"
+    },
+    {
+      "path": "workspace/scripts/make_dist.py",
+      "source": "workspace/scripts/make_dist.py",
+      "bytes": 14616,
+      "sha256": "03447b43325d83bd597da8eef58eda7516c2e918980d7fbcafe2d275a6276105"
+    },
+    {
+      "path": "workspace/scripts/make_glyphs.py",
+      "source": "workspace/scripts/make_glyphs.py",
+      "bytes": 5890,
+      "sha256": "37f59d133b6ade80141566a809c886f6fdad1c3c7df60f42662d4a08596fb6f3"
+    },
+    {
+      "path": "workspace/scripts/preview_strings.py",
+      "source": "workspace/scripts/preview_strings.py",
+      "bytes": 3609,
+      "sha256": "39c0ace32685049fecddc8a70fc11b161ec234b82dee1829fdc6a84b6c4d3978"
+    },
+    {
+      "path": "workspace/scripts/render_pattern_table.py",
+      "source": "workspace/scripts/render_pattern_table.py",
+      "bytes": 2052,
+      "sha256": "fe401dbce2d9bdf20b56ea4e6c8840e4296e59be632292586ec7449df7895004"
+    },
+    {
+      "path": "workspace/scripts/render_screen.py",
+      "source": "workspace/scripts/render_screen.py",
+      "bytes": 3040,
+      "sha256": "e03b8a056d3ad3d3443d5ed079932cc384fe5c40632edb5d2348fcef26403672"
+    },
+    {
+      "path": "workspace/scripts/run_qa.py",
+      "source": "workspace/scripts/run_qa.py",
+      "bytes": 6179,
+      "sha256": "24eef74a1265747ae4f4044e68a9c5741898262d72a14f21c9d27e5b1f8b6bea"
+    },
+    {
+      "path": "workspace/scripts/survey_prg.py",
+      "source": "workspace/scripts/survey_prg.py",
+      "bytes": 2025,
+      "sha256": "f6974cdc48b9e0e86e3b79107ed369da242e0fb8f4982ec3663509c0957874b3"
+    },
+    {
+      "path": "workspace/scripts/survey_text.py",
+      "source": "workspace/scripts/survey_text.py",
+      "bytes": 3242,
+      "sha256": "e0e7996218c9e60d1d23c47c5a040a1d779ba87b098c1fb406fbe248d2bad483"
+    },
+    {
+      "path": "workspace/text/reports/translation_report.txt",
+      "source": "workspace/text/reports/translation_report.txt",
+      "bytes": 2111,
+      "sha256": "39594d22a1d01c433a1d566cc68f4a64ecdf29e9d5e48013bd60a9fbaf0e0aa7"
+    },
+    {
+      "path": "workspace/text/translation/translation.json",
+      "source": "workspace/text/translation/translation.json",
+      "bytes": 7994,
+      "sha256": "8485febc57b32754273645865b5528795c0462ce9b328c642ae1daf0ea53621f"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 5209,
+      "sha256": "d24d612e5b7b4f58d167442199d1333d8160e39bb7a934e1925f6ab987f73e51"
+    }
+  ]
+}
