@@ -1,0 +1,14 @@
+{
+  "src": "assets/screenshots/nes-city-connection-kr-patch.png",
+  "caption": "한글 타이틀 · 작업 당시 캡처",
+  "kind": "runtime",
+  "width": 256,
+  "height": 240,
+  "source": "Games/City Connection/work/qa/logo22/f00240.png",
+  "sourceSHA256": "61a381823a2fc99af8019f8e1af1aa3aa78522e2dae743cb4ea326b08a3b1705",
+  "assetSHA256": "61a381823a2fc99af8019f8e1af1aa3aa78522e2dae743cb4ea326b08a3b1705",
+  "pixelSHA256": "3a66b4f974a1e49be1bf0e253f655b505dd8e497de794b065d0f5c86842712b1",
+  "sourceNote": "logo22 Mesen 캡처",
+  "readmeAsset": "img/preview.png",
+  "displayNote": "logo22 Mesen 캡처 작업 당시 화면이며 최종 배포본의 화면 검증을 의미하지 않습니다."
+}
