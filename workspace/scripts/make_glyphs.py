@@ -20,7 +20,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
-FONT_DIR = ROOT.parents[1] / "Font"
+FONT_DIR = ROOT / "inputs" / "fonts"
 OUT = ROOT / "work"
 
 FONT_FILE = "Galmuri8x8.ttf"

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "sourceSHA256": "6476d10be301a331904bb42db0bd9811d13ff4ba991c32611b7c746d3560f61f",
+  "finalSHA256": "03f0de5a1bac876873cdbae143d84980f99154bb9b796b2db4edbd5e6079fca4",
+  "finalBytes": 32784,
+  "originalUnchanged": true,
+  "unchangedRoundtrip": "PASS",
+  "stringAudit": "PASS",
+  "expectedWrite": "PASS",
+  "staticStringPreview": "generated; not emulator evidence",
+  "titleSource": "approved bitmap config",
+  "runtimeVerification": "not performed",
+  "date": "2026-10-16",
+  "downloadedReleaseApplyPS1": "PASS",
+  "releaseZipSHA256": "bb0c4dc997305d469f5d71e6abd04950d0a9fb2bde1ee234515b6599e26d014a",
+  "releaseZipCRC": "PASS",
+  "wrongSourceRejected": true,
+  "existingOutputRejected": true
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "sourceSHA256": "6476d10be301a331904bb42db0bd9811d13ff4ba991c32611b7c746d3560f61f",
+  "sourceBytes": 32784,
+  "targetSHA256": "03f0de5a1bac876873cdbae143d84980f99154bb9b796b2db4edbd5e6079fca4",
+  "originalIncluded": false,
+  "logoInput": "Approved final 32-tile bitmap and tilemap in patch_logo.json; original Rix outline font is not required to rebuild the frozen final logo.",
+  "files": [
+    {
+      "path": "inputs/fonts/Galmuri8x8.ttf",
+      "bytes": 146780,
+      "sha256": "97ba3dcc2cd5e5b2927e4e6ba9558a48a2a194a852c420df160654d66bbf2a05"
+    },
+    {
+      "path": "workspace/config/patch_logo.json",
+      "bytes": 6255,
+      "sha256": "e7cfd67f653cf81946f3e13636c7068c99143d388d566dc21059fef125080751"
+    },
+    {
+      "path": "workspace/config/rom_map.json",
+      "bytes": 7417,
+      "sha256": "88ad96997c5d3585a8fc9d6bfbe192a53eb2cfd99b8da09f50790e5555145b38"
+    },
+    {
+      "path": "workspace/text/translation/translation.json",
+      "bytes": 7994,
+      "sha256": "8485febc57b32754273645865b5528795c0462ce9b328c642ae1daf0ea53621f"
+    }
+  ]
+}

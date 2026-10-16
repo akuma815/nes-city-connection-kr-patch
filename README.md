@@ -39,3 +39,5 @@
 ## 소스 및 작업 기록
 
 [공개 소스 구성과 빌드 전제](docs/SOURCE_GUIDE.md) · [상세 패치 안내](docs/PATCH_GUIDE.txt)
+
+[최종판 재빌드 안내](docs/rebuild/README.md): 본문 폰트와 승인 로고 타일 설정을 포함했습니다. 지원 일본판 원본 ROM만 별도로 준비하면 최종판을 재현할 수 있습니다.
